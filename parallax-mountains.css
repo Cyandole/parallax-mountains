@@ -1,0 +1,85 @@
+
+* {
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: white;
+    min-height: 100vh;
+    overflow-x: hidden;
+    margin: 0;
+}
+
+.container {
+    position: absolute;
+}
+
+header {
+    position: inherit;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 30px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.logo {
+    font-size: 2em;
+    pointer-events: none;
+}
+
+.navigation a {
+    text-decoration: none;
+    color: black;
+    padding: 6px 15px;
+    border-radius: 20px;
+    margin: 0 10px;
+    font-weight: 600;
+}
+
+.navigation a:hover, .navigation a.active {
+    background: #1f1f1f;
+    color: white;
+}
+
+.parallax-mountains {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.parallax-mountains img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    pointer-events: none;
+    /* margin-bottom: 5px; */
+}
+
+.dirt {
+    position: relative;
+    padding: 100px;
+    padding-bottom: 120px;
+    background: #1f1f1f;
+}
+
+.dirt h2 {
+    font-size: 5em;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.dirt p {
+    font-size: 1em;
+    color: white;
+    font-weight: 300;
+}
